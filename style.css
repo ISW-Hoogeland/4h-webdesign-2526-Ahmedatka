@@ -45,6 +45,8 @@ background-color: var(--main)
 
 header {
 grid-area: header;
+overflow: hidden;
+width: 100%;
 }
 nav {
 grid-area: nav; }
@@ -53,3 +55,18 @@ grid-area: main; }
 footer {
 grid-area: footer; }
 
+img {
+   height: 125px;
+}
+
+h1 {
+   text-align: center;
+}
+
+h2 {
+   text-align: center;
+}
+
+header img {
+   float:left;
+}
