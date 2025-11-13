@@ -47,13 +47,18 @@ header {
 grid-area: header;
 overflow: hidden;
 width: 100%;
+color: #00020a;
 }
 nav {
 grid-area: nav; }
 main {
-grid-area: main; }
+grid-area: main; 
+color: #a3000e;
+}
 footer {
-grid-area: footer; }
+grid-area: footer; 
+color: #5172a4;
+}
 
 img {
    height: 125px;
